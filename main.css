@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.whole {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(154, 212, 154);
+    background: radial-gradient(circle, rgb(73, 105, 73) 0%, rgb(158, 238, 158) 35%, rgb(217, 255, 217) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#position {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#info {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.round {
+    width: 15px;
+    height: 15px;
+    margin: 0 15px;
+    border-radius: 50px;
+    background-color: black;
+}
