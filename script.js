@@ -1,4 +1,4 @@
-const api = 'bd4a7fb1093e8e0d5f8b746de3027168';
+const api = 'TOKEN';
 
 const iconImg = document.getElementById('weather-icon');
 const place = document.querySelector('#position');
